@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 1px solid #ddd;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #49464f;
+}
+.nav-padding {
+  padding-top: 15px;
+  padding: 15px 40px 0 40px;
+}
+.brand-logo {
+  width: 124px;
+  height: 70px;
+}
+.hero {
+  background-image: url(img/background.svg);
+  height: 100vh;
+  background-size: cover;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+.button:link,
+.button:visited {
+  padding: 10px 50px;
+  font-size: 18px;
+  background-color: #7140eb;
+  border: none;
+}
+.button:hover,
+.button:active {
+  background-color: #5f3dc4;
+  transition: all 1s;
+}
+.hero-title {
+  width: 540px;
+  font-size: 100px;
+  line-height: 111px;
+  padding-top: 153px;
+  margin: 0 auto;
+}
+.button1 {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+.works h3,
+.bike h3,
+.testimonial h3,
+.description h3,
+.advertising h3 {
+  font-size: 3.3rem;
+  font-weight: 400;
+}
+.works li {
+  padding-bottom: 24px;
+  font-size: 28px;
+}
+.bike,
+.testimonial {
+  background-color: #f5f5f7;
+}
+
+.display-4 {
+  color: #7140eb;
+  background-color: #f1eef8;
+}
+.card a {
+  font-size: 16px;
+}
+.bike .row {
+  padding-bottom: 140px;
+}
+.testimonial-text .lead {
+  font-size: 18px;
+}
+.description {
+  background-image: url(img/bikeman.svg);
+  background-size: cover;
+  height: 715px;
+}
+.description-title {
+  margin-top: 5rem;
+  line-height: 5.5rem;
+}
+.advertising .col-md-3:first-child {
+  margin-right: 5rem;
+}
+
+.display-2:link,
+.display-2:visited {
+  background-color: #f5f5f7;
+  font-size: 0.8rem;
+}
+.display-2:hover,
+.display-2:active {
+  background-color: #f1eef8;
+}
+.advertising .card {
+  background-color: #f5f5f7;
+}
+.footer {
+  background-image: url(img/footerimg.svg);
+  background-size: cover;
+  height: 70vh;
+}
+.footer-item {
+  list-style: none;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: rgba(255, 255, 255, 0.5);
+}
+.disable:link,
+.disable:visited {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fa-brands {
+  color: black;
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+  .works h3,
+  .bike h3,
+  .testimonial h3,
+  .description h3,
+  .advertising h3 {
+    font-size: 2.5rem;
+  }
+  .works li {
+    padding-bottom: 1.25rem;
+    font-size: 1.25rem;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .advertising .display-2 {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 768px) {
+  .works .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .description .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .description-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .advertising .display-2 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 576px) {
+  .description-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .hero-title {
+    width: 300px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .hero {
+    height: 80vh;
+  }
+}
+@media (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+}
